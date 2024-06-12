@@ -116,3 +116,54 @@ li{
     padding: 5rem 16rem;
     text-align: center;
 }
+.grid{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    gap: 2rem;
+    /* padding:2.5rem 25rem 2.5rem 25rem; */
+    justify-content: center;
+    align-items: center;
+}
+.grid-el-one,
+.grid-el-two,
+.grid-el-three{
+    width: 250px;
+    height: 250px;
+    background-size: 25rem 25rem;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.grid-el-one{
+    background-image: url(../images/side1.webp);
+   
+}
+.grid-el-two{
+    background-image: url(../images/side2.webp);
+}
+.grid-el-three{
+    background-image: url(../images/side3.webp);
+}
+.el-one--content,
+.el-two--content,
+.el-three--content{
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    color: blue;
+    background-color:#fff;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+
+}
+.el-one--content:hover,
+.el-two--content:hover,
+.el-three--content:hover{
+    background-color: rgb(61, 61, 235);
+    color: #fff;
+}

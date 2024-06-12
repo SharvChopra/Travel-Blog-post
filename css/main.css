@@ -14,6 +14,7 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #D9D9D9;
+    position: fixed;
 }
 .container__box{
     position:absolute;
@@ -200,7 +201,7 @@ li{
 }
 .comment{
     width: 100vw;
-    height: 140vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,7 +225,7 @@ li{
     border: 1px solid lightgray;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem;
+    padding: 1.5rem;
 }
 .admin{
     width: 100%;
@@ -299,7 +300,7 @@ h1{
     background-repeat: no-repeat;
 }
 .icon-content{
-    width: 100%;
+    width: 100vw;
     height: 46vh;
 }
 .icons{
@@ -350,7 +351,7 @@ h1{
 }
 .footer{
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     background-color:grey ;
 }
 .footer-section-one{

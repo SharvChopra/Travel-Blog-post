@@ -348,3 +348,102 @@ h1{
 .content-image-five:hover{
     filter: brightness(50%);
 }
+.footer{
+    width: 100vw;
+    height: 60vh;
+    background-color:grey ;
+}
+.footer-section-one{
+    width: 95vw;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+}
+.footer-content{
+    margin-left:0;
+    margin-top: 5rem;
+}
+.footer-about{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: 4rem;
+    margin-left: 24rem;
+    margin-right: 0;
+}
+p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.footer-text-one{
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-contact{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    
+}
+.footer-contact-text{
+    font-size: 1.6rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+}
+.footer-contact-form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;   
+}
+.input{
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    outline: 0;
+}
+.text{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    padding: 0.8rem 1rem;
+    transition: filter 0.3s;
+}
+.text:hover{
+    filter: brightness(70%);
+}
+h2{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.footer-section-two{
+    width: 95vw;
+    height: 25vh;
+    display: flex;
+    color: white;
+}
+.footer-section-two-content{
+    margin-left: 24rem;
+    margin-top: 10rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.company{
+    text-decoration: underline;
+}
+.footer-icon{
+    position: relative;
+    top:9rem;
+    left: 29.5rem;
+    cursor: pointer;
+}
+.footer-icon-one,
+.footer-icon-two,
+.footer-icon-three,
+.footer-icon-four{
+    padding: 0.3rem;
+}

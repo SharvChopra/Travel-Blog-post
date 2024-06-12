@@ -109,3 +109,10 @@ li{
 .text-content--lower{
     font-size: 1.8rem;
 }
+.sub-content{
+    width: 100vw;
+    height: 20vh;
+    font-size: 1.5rem;
+    padding: 5rem 16rem;
+    text-align: center;
+}

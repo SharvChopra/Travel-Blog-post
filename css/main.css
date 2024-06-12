@@ -167,3 +167,34 @@ li{
     background-color: rgb(61, 61, 235);
     color: #fff;
 }
+.discover{
+    width: 100vw;
+    height: 14vh;
+    background-color:#D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover-one,
+.discover-two,
+.discover-three,
+.discover-four,
+.discover-five,
+.discover-six{
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+.discover-four{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.discover-five{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.discover-six{
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
